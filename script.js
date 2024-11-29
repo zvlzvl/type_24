@@ -6,7 +6,6 @@ fetch("https://api.escuelajs.co/api/v1/users")
   new Date().getTime();
   new Date().getDate();
 
-
     data.forEach(user => {
         const date = new Date(user.creationAt);
         const formattedDate = date.toLocaleDateString('en-US', {

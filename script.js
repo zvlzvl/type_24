@@ -1,5 +1,11 @@
 const container = document.querySelector('.container');
 
+fetch("https://api.escuelajs.co/api/v1/users")
+.then(res => res.json())
+.then(data => {
+    console.log(data);
+})
+
 container.innerHTML +=`   <div class="card">
         <img src="https://i.imgur.com/LDOO4Qs.jpg" alt="Avatar">
         <div class="card-content">

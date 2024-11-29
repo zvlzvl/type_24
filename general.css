@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #a9bd87
+}
+
+.d-none {
+    display: none;
+}
+
+.a-start {
+    align-items: start;
+}
+
+
+.a-center {
+    align-items: center;
+}
+
+.a-end {
+    align-items: end;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.d-column {
+    flex-direction: column;
+}
+
+.j-space-around {
+    justify-content: space-around;
+}
+
+.j-space-between {
+    justify-content: space-between;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.gap100 {
+    gap: 100px;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.m-t-30 {
+    margin-top: 30px;
+}
+
